@@ -37,6 +37,10 @@
     "date": {
       "type": "date",
       "required": true
+    },
+    "content": {
+      "type": "blocks",
+      "required": true
     }
   }
 }

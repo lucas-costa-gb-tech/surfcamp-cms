@@ -798,6 +798,7 @@ export interface ApiBlogArticleBlogArticle extends Schema.CollectionType {
     slug: Attribute.String & Attribute.Required & Attribute.Unique;
     author: Attribute.String & Attribute.Required;
     date: Attribute.Date & Attribute.Required;
+    content: Attribute.Blocks & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
